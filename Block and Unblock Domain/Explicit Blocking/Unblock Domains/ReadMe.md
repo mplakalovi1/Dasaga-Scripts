@@ -1,7 +1,7 @@
 # Unblock-Domains PowerShell Script
 
 ## Description
-The Unblock-Domains PowerShell script is designed to remove blocking entries ('0.0.0.0 [Domain Name]') from the hosts file on a Windows system. It can be used to unblock specific domains by removing the entries added for blocking.
+The Unblock-Domains PowerShell script is designed to remove blocking entries (`0.0.0.0 [Domain Name]`) from the hosts file on a Windows system. It can be used to unblock specific domains by removing the entries added for blocking.
 
 ## Usage
 1. **Clone or Download the Repository:**
