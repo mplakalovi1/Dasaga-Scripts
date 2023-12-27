@@ -1,7 +1,7 @@
 # Block-Domains PowerShell Script
 
 ## Description
-The Block-Domains PowerShell script is designed to block specified domains by adding entries ('0.0.0.0 [Domain Name]') to the hosts file on a Windows system. It can be useful for preventing access to specific websites.
+The Block-Domains PowerShell script is designed to block specified domains by adding entries (`0.0.0.0 [Domain Name]`) to the hosts file on a Windows system. It can be useful for preventing access to specific websites.
 
 ## Usage
 1. **Clone or Download the Repository:**
