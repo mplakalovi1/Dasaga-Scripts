@@ -1,5 +1,5 @@
 param(
-    [string[]]$domainsToBlock
+    [string[]]$domainsToBlock = @("www.facebook.com", "www.twitter.com", "www.instagram.com")
 )
 
 # Settings

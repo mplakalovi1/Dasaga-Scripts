@@ -1,5 +1,5 @@
 param(
-    [string[]]$resolutionsToAdd
+    [string[]]$resolutionsToAdd = @("192.168.1.1:example.com", "10.0.0.1:example.org")
 )
 
 # Settings

@@ -1,5 +1,5 @@
 param(
-    [string[]]$resolutionsToRemove
+    [string[]]$resolutionsToRemove = @("example.com", "example.org")
 )
 
 # Settings
