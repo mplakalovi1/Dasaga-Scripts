@@ -1,3 +1,3 @@
 ## PowerShell Scripts
 
-This repository contains simple PowerShell scripts for simulating network outages. The scripts automate the toggling (enable/disable) of firewall rule, blocking domain name resolution, and more.
+This repository contains a collection of useful PowerShell scripts designed to simplify various tasks and automate processes. These scripts include functionalities for simulating network outages, monitoring disk usage, and more, providing convenient solutions for system administration and management.
