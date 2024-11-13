@@ -43,7 +43,7 @@ fi
 count=0
 
 # Loop through all keyspaces that start with the given prefix
-for keyspace in $(echo "DESCRIBE KEYSPACES;" | cqlsh -u "$USERNAME" -p "$PASSWORD" | grep "^${PREFIX}"); do
+for keyspace in $(echo "DESCRIBE KEYSPACES;" | cqlsh -u "$USERNAME" -p "$PASSWORD" | tr -s ' ' '\n' | grep "^${PREFIX}"); do
     # If delete flag is set, delete the keyspace, otherwise just print and count it
     if $DELETE_FLAG; then
         echo "DROP KEYSPACE ${keyspace};" | cqlsh -u "$USERNAME" -p "$PASSWORD"
